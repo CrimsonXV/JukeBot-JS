@@ -1,6 +1,14 @@
 const sch = require('../util/soundcloudHandler.js');
 const Client = require('../util/client.js');
 
+// -- DEPRECATION WARNING --
+console.log('--------------------------------------------------');
+console.log('WARNING: This version of JukeBot is deprecated.');
+console.log('Please use the Kotlin version instead, available here:');
+console.log('https://github.com/Devoxin/JukeBot');
+console.log('--------------------------------------------------');
+// -- DEPRECATION WARNING --
+
 const client = new Client(require('./config.json'), {
     disableEvents: ['GUILD_BAN_ADD', 'GUILD_BAN_REMOVE', 'MESSAGE_DELETE', 'MESSAGE_DELETE_BULK', 'MESSAGE_UPDATE', 'PRESENCE_UPDATE', 'TYPING_START', 'USER_UPDATE'],
     messageLimit: 0,

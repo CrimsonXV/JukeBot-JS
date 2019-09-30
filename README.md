@@ -1,3 +1,8 @@
+# Deprecation Warning
+This version of JukeBot is no longer maintained and shouldn't be used. Use the [Kotlin version](https://github.com/Devoxin/JukeBot) of JukeBot instead. 
+
+------
+
 # Welcome to JukeBot's repository!
 requires a mere 3 dependencies *not including the dependencies of those dependencies*
 
